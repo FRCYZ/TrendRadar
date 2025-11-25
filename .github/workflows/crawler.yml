@@ -67,6 +67,7 @@ jobs:
           GITHUB_ACTIONS: true
         run: python main.py
 
+
       - name: Commit and push if changes
         run: |
           git config --global user.name 'GitHub Actions'
